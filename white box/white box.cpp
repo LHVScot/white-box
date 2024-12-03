@@ -35,7 +35,7 @@ int proverka(double a, double b, double c, double d) {
         cout << "Треугольник прямоугольный" << endl;
         return 0;
     }
-    if (a == b && b == a) {
+    if (a == b && b == c) {
         cout << "Треугольник равносторонний" << endl;
         return 0;
     }
